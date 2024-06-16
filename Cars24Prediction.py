@@ -1,13 +1,8 @@
 import pickle
-import pandas as pd
 import streamlit as st
 import sklearn
 
 st.header('Cars 24 Price Prediction App')
-
-df = pd.read_csv("/Users/vysha/PycharmProjects/pythonProject/Car_prediction_App/cars24-car-price.csv")
-
-# st.dataframe(df)
 
 col1, col2, col3 = st.columns(3)
 
